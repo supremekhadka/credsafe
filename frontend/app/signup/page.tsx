@@ -9,7 +9,7 @@ import { title } from "@/components/primitives";
 export default function LoginPage() {
   return (
     <div>
-      <Card className="p-5 max-w-[350px]">
+      <Card className="p-5 md:min-w-[325px] max-w-[350px] mx-2">
         <CardHeader className={`${title({ size: "xs" })} mb-3`}>
           Sign Up
         </CardHeader>

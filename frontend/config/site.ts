@@ -17,6 +17,8 @@ export const siteConfig = {
   links: {
     login: "./login",
     signup: "./signup",
+    dashboard: "./dashboard",
+    logout: "./logout",
     github: "https://github.com/supremekhadka/credsafe",
   },
 };

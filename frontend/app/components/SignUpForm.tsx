@@ -4,7 +4,7 @@ import { Button } from "@nextui-org/button";
 import { Input } from "@nextui-org/input";
 import { useState } from "react";
 
-const LoginForm = () => {
+const SignUpForm = () => {
   const [action, setAction] = useState<string>();
 
   return (
@@ -44,12 +44,12 @@ const LoginForm = () => {
         type="password"
       />
       <div className="flex gap-2">
-        <Button variant="flat" color="secondary" type="submit">
-          Submit
+        <Button variant="shadow" color="primary" type="submit">
+          Sign Up
         </Button>
       </div>
     </Form>
   );
 };
 
-export default LoginForm;
+export default SignUpForm;

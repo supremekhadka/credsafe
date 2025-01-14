@@ -44,8 +44,8 @@ const LoginForm = () => {
         type="password"
       />
       <div className="flex gap-2">
-        <Button variant="flat" color="secondary" type="submit">
-          Submit
+        <Button variant="shadow" color="primary" type="submit">
+          Login
         </Button>
       </div>
     </Form>

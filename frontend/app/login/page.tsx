@@ -9,7 +9,7 @@ import { siteConfig } from "@/config/site";
 export default function LoginPage() {
   return (
     <div>
-      <Card className="p-5 max-w-[350px] mx-2">
+      <Card className="p-5 md:min-w-[325px] max-w-[350px] mx-2">
         <CardHeader className={`${title({ size: "xs" })} mb-3`}>
           Log in
         </CardHeader>
